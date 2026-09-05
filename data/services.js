@@ -32,6 +32,7 @@ export const services = [
       "Project updates",
       "Workflow organization",
       "Team coordination",
+      "Time Management",
       "Progress tracking",
     ],
   },

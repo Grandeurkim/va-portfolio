@@ -39,6 +39,7 @@ export const toolProjects = [
             },
             {
                 title: "Defective Product Replacement",
+                featured: true,
                 problem:
                     "A customer reached out after receiving a defective pair of wireless earbuds.",
                 approach: [
@@ -147,6 +148,7 @@ export const toolProjects = [
             },
             {
                 title: "Product Launch Coordination (Soft Drink)",
+                featured: true,
                 problem:
                     "Our team needed to coordinate the launch of a new soft drink product, but the tasks involved — design, packaging, slogan selection, and budgeting — required a structured workflow to avoid delays and confusion.",
                 approach: [
@@ -170,6 +172,7 @@ export const toolProjects = [
     projects: [
       {
         title: "Hair Campaign Creative & Launch Coordination",
+        featured: true,
         problem:
           "Responsible for managing the creative tasks for a hair campaign, including designing branded materials and ensuring timely delivery across multiple channels.",
         approach: [
@@ -225,6 +228,7 @@ export const toolProjects = [
     projects: [
       {
         title: "Client Inbox Organization & Shared Folder Coordination",
+        featured: true,
         problem:
           "Needed to manage a client's shared resources and ensure smooth collaboration with interns.",
         approach: [
@@ -276,6 +280,7 @@ export const toolProjects = [
       },
       {
         title: "Real Estate Company Research",
+        featured: true,
         problem:
           "Needed to identify and organize real estate companies in a target city to support market research and potential business development opportunities.",
         approach: [
@@ -334,6 +339,7 @@ export const toolProjects = [
     },
     {
       title: "Recurring Onboarding Review Scheduling",
+      featured: true,
       problem:
         "A client needed to organize recurring onboarding review sessions to guide new members through the steps required to join the brand.",
       approach: [
@@ -380,6 +386,7 @@ export const toolProjects = [
     projects: [
       {
         title: "Automated Coaching Appointment & Follow-Up System",
+        featured: true,
         problem:
           "A coaching client needed a structured system to manage appointments and automate follow-up actions. Their manual process was time-consuming and error-prone, risking missed appointments and inconsistent client communication.",
         approach: [
@@ -407,6 +414,7 @@ export const toolProjects = [
     projects: [
       {
         title: "Automated Appointment Confirmation Workflow",
+        featured: true,
         problem:
           "A coaching business needed to streamline appointment confirmations. Manually tracking new bookings and sending confirmation emails was inefficient and often delayed client communication.",
         approach: [
@@ -444,6 +452,35 @@ export const toolProjects = [
           {
             src: "/images/projects/dropbox-workspace-folders.png",
             caption: "Dropbox workspace with organized project folders",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    tool: "Time Management (Tool: Clockify)",
+    projects: [
+      {
+        title: "Clockify Time Tracking Implementation",
+        problem:
+          "My client needed a way to track how much time was being spent on different business activities such as automation setup, lead generation, and email management. Without a proper system, it was difficult to measure productivity or approve logged work.",
+        approach: [
+          "Set up the workspace: Created projects and tags to categorize all client tasks",
+          "Tracked key activities: Building a Google Form + Gmail workflow, B2B lead generation, and sorting and organizing emails",
+          "Logged time accurately: Recorded duration for each individual task",
+          "Submitted for approval: Sent time logs to the client for review and approval",
+          "Provided transparency: Gave the client full visibility into how time was allocated across different business activities",
+        ],
+        result:
+          "The client gained a clear breakdown of work completed, with 17 minutes of tracked activity across multiple projects. This improved accountability, allowed them to approve tasks confidently, and provided insights into how time was being invested in their business operations.",
+        screenshots: [
+          {
+            src: "/images/projects/Clockify 1.png",
+            caption: "Time tracking and task categorization in Clockify.",
+          },
+          {
+            src: "/images/projects/Clockify 2.png",
+            caption: "Time tracking and task categorization in Clockify.",
           },
         ],
       },
